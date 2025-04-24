@@ -13,7 +13,7 @@ export const Home = () => {
           more about cryptocurrencies
         </p>
         <form>
-          <input type="text" placeholder="search crypto" />
+          <input type="text" placeholder="Search Crypto" />
           <button type="submit">Search</button>
         </form>
       </div>
