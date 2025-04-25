@@ -1,12 +1,64 @@
-# React + Vite
+# 🪙 Cryptarithmatic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cryptarithmatic is a modern cryptocurrency tracker that lets users explore real-time prices, trends, and stats for major cryptocurrencies — all wrapped in a sleek, user-friendly interface.
 
-Currently, two official plugins are available:
+[Watch Demo](./demo1.mkv)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+🔍 Search & Explore: Instantly find your favorite coins.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📈 Live Market Data: Real-time prices, 24H highs/lows, market caps & rankings.
+
+📊 Interactive Line Charts: Visualize historical prices with Google Charts.
+
+🌐 Multi-Currency Support: View prices in your preferred currency.
+
+🔄 Loading Spinners: Smooth loading indicators during API calls.
+
+🧠 Built with context API for global state management.
+
+## 🛠️ Tech Stack
+
+React
+
+React Router
+
+Context API
+
+CoinGecko API
+
+Google Charts
+
+CSS Modules
+
+## 📦Installation
+
+        git clone https://github.com/yourusername/cryptarithmatic.git
+        cd cryptarithmatic
+        npm install
+        npm start
+
+## 📁 Folder Structure
+
+        src/
+        │
+        ├── components/
+        │   └── LineChart/
+        │
+        ├── context/
+        │   └── CoinContext.js
+        │
+        ├── pages/
+        │   ├── Home/
+        │   └── Coin/
+        │
+        ├── App.js
+        └── index.js
+
+## ✅ To-Do / Roadmap
+
+- Add dynamic time range selector (7D, 30D, 1Y) [x]
+- Add currency selector dropdown [x]
+- Pagination for large coin lists [x]
+- Dark mode support 🌙 [x]
