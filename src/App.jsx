@@ -1,9 +1,9 @@
 import "./App.css";
-import Navbar from "./components/Navbar/navbar";
+import Navbar from "./components/Navbar/navbar.jsx";
 import "./index.css";
-import Coin from "./pages/Coin/Coin";
-import Footer from "./pages/Footer/Footer";
-import Home from "./pages/Home/Home";
+import Coin from "./pages/Coin/Coin.jsx";
+import Footer from "./pages/Footer/Footer.jsx";
+import Home from "./pages/Home/Home.jsx";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
