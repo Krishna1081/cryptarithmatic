@@ -2,7 +2,7 @@
 
 Cryptarithmatic is a modern cryptocurrency tracker that lets users explore real-time prices, trends, and stats for major cryptocurrencies — all wrapped in a sleek, user-friendly interface.
 
-[Watch Demo](./demo1.mkv)
+[Watch Demo](https://drive.google.com/file/d/1LUeKY2hsemZ3Tr62HuikhO1KdMR_bR-2/view?usp=sharing)
 
 ## 🚀 Features
 
